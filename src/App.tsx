@@ -1,7 +1,13 @@
 import React from "react";
+import { InputField } from "./components";
 
-function App() {
-  return <div>App</div>;
-}
+const App: React.FC = () => {
+  return (
+    <div>
+      <h1>Taskify</h1>
+      <InputField />
+    </div>
+  );
+};
 
 export default App;
